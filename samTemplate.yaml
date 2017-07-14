@@ -14,3 +14,7 @@ Resources:
           Properties:
             Path: /TimeResource
             Method: GET
+  PlatformBucketQA:
+    Type: AWS::S3::Bucket
+      Properties:
+        BucketName: SA-test-sam
